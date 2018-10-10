@@ -26,6 +26,8 @@ public class RoyalRumble {
     public static void main(String[] args) {
         int n = GetInputNumber();
         List<String> names = GetInputNames(n);
+        List<String> result = helper.GetSortedList(names);
+        PrintOutput(result);
     }
 
     public static int GetInputNumber() {
@@ -50,10 +52,17 @@ public class RoyalRumble {
             if (!helper.ValidateInputName(s)) {    
                 System.out.println("ERROR!! Please enter a valid name");
             }else{
+                names.add(s);
                 count++;
             }
         } while (!(count == n));
-        return null;
+        return names;
+    }
+    
+    public static void PrintOutput(List<String> result){
+        result.forEach((item) -> {
+            System.out.println(item); 
+        });
     }
 
 }

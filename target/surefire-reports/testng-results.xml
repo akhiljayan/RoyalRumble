@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HelperClassTest" duration-ms="2618" started-at="2018-10-10T14:52:40Z" finished-at="2018-10-10T14:52:42Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="2618" started-at="2018-10-10T14:52:40Z" finished-at="2018-10-10T14:52:42Z">
+      <class name="HelperClassTest">
+        <test-method status="PASS" signature="should_check_the_input_validations()[pri:0, instance:HelperClassTest@71c7db30]" name="should_check_the_input_validations" duration-ms="13" started-at="2018-10-10T14:52:40Z" finished-at="2018-10-10T14:52:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- should_check_the_input_validations -->
+        <test-method status="PASS" signature="should_not_return_duplicate_names()[pri:0, instance:HelperClassTest@71c7db30]" name="should_not_return_duplicate_names" duration-ms="54" started-at="2018-10-10T14:52:40Z" finished-at="2018-10-10T14:52:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- should_not_return_duplicate_names -->
+        <test-method status="PASS" signature="should_return_sorted_fifty_names()[pri:0, instance:HelperClassTest@71c7db30]" name="should_return_sorted_fifty_names" duration-ms="2512" started-at="2018-10-10T14:52:40Z" finished-at="2018-10-10T14:52:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- should_return_sorted_fifty_names -->
+        <test-method status="PASS" signature="should_sort_input_correctly()[pri:0, instance:HelperClassTest@71c7db30]" name="should_sort_input_correctly" duration-ms="1" started-at="2018-10-10T14:52:42Z" finished-at="2018-10-10T14:52:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- should_sort_input_correctly -->
+      </class> <!-- HelperClassTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- HelperClassTest -->
+</testng-results>
