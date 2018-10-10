@@ -60,9 +60,11 @@ public class RoyalRumble {
     }
     
     public static void PrintOutput(List<String> result){
-        result.forEach((item) -> {
-            System.out.println(item); 
-        });
+        System.out.println("\n");
+        System.out.println("=====Sorted List=====");
+        for(int i=0; i<result.size(); i++){
+            System.out.println( (i+1) + ": " + result.get(i)); 
+        }
     }
 
 }
